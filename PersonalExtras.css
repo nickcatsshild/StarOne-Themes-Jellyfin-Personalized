@@ -1,0 +1,154 @@
+/* These are just some things I add to my server, so I can clean up my Custom CSS section.*/
+/*------------------CAST OFFSET------------------*/
+.layout-desktop div#castCollapsible {
+margin-bottom:6em;
+margin-top:-22vh;
+width:68vw;
+}
+
+.layout-desktop div#childrenCollapsible {
+margin-top:4em;
+}
+
+.layout-tv div#castCollapsible {
+margin-top:-68vh !important;
+width:68vw !important;
+}
+
+/*------------------HDR INDICATOR------------------*/
+.mediaSourceIndicator {
+background-color:#282828;
+color:#0000;
+font-size:68%;
+padding-left:4px;
+padding-right:11px
+}
+
+.mediaSourceIndicator:after {
+color:#fff;
+content:"HDR"!important
+}
+
+/*------------------DISPLAY SETTINGS------------------*/
+#displayPreferencesPage .selectContainer {
+    display: none;
+}
+#displayPreferencesPage .selectContainer.fldDisplayMode {
+    display: block !important;
+}
+#displayPreferencesPage .checkboxContainer {
+    display: none;
+}
+#displayPreferencesPage .inputContainer {
+    display: none;
+}
+a.lnkDisplayPreferences.listItem-border.emby-button {
+    display: block!important;
+}
+#displayPreferencesPage h2.sectionTitle {
+    display: none;
+}
+
+/*------------------SLIMMER LOGS------------------*/
+span.listItemIcon.material-icons.notifications {
+    display: none !important;
+}
+
+.listItemBody {
+    padding: 0 !important;
+}
+
+/*------------------EXTRAS------------------*/
+.layout-mobile .dashboardSections {
+    grid-auto-columns: auto;
+    max-width: 82vw;
+}
+
+.layout-mobile .listItemBodyText {
+    font-size: 14px !important;
+}
+
+.layout-mobile #serverName, #versionNumber, #operatingSystem {
+    margin-bottom: -1.5vh;
+}
+
+.layout-desktop .trackSelections {
+    margin-top:-13vh;
+}
+
+.btnNextChapter {
+    display: none !important;
+}
+.btnPreviousChapter {
+    display: none !important;
+}
+.actionSheetMenuItem[data-id=aspectratio] {
+    display: none !important;
+}
+.actionSheetMenuItem[data-id=playbackrate] {
+    display: none !important;
+}
+.actionSheetMenuItem[data-id=repeatmode] {
+    display: none !important;
+}
+.actionSheetMenuItem[data-id=60000000] {
+    display: none !important;
+}
+.actionSheetMenuItem[data-id=40000000] {
+    display: none !important;
+}
+.actionSheetMenuItem[data-id=20000000] {
+    display: none !important;
+}
+.actionSheetMenuItem[data-id=15000000] {
+    display: none !important;
+}
+.listItemAside.actionSheetItemAsideText {
+    display: none;
+}
+
+/*----------ADDONS FOR NEW LIBRARIES----------*/
+.headerSearchButton, .headerSyncButton {
+	display: none;
+}
+
+.material-icons.homeLibraryIcon {
+  display: none;
+}
+
+#indexPage .homeLibraryButton:hover {
+  background-color: #666 !important;
+  border-radius: 12vw !important;
+}
+.headerButton.mainDrawerButton.barsMenuButton.headerButtonLeft.paper-icon-button-light {
+	margin-right: -20em;
+	opacity: 0;
+	width: 20em;
+}
+
+/*------------------OTHERS------------------*/
+body, h1, h2, h3, h4 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.emby-textarea {
+  font-family: monospace;
+  font-size: 10pt;
+}
+
+#btnShutdown {
+    display: none !important;
+}
+
+.chapterThumbTextContainer {
+  background: transparent;
+}
+
+h2.jellyscrubThumbText {
+    background: #00000070;
+    text-align: center;
+    margin-left: -1vw;
+    font-size: 24px;
+    margin-right: -1vw;
+}
+

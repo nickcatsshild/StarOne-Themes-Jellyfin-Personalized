@@ -1,0 +1,86 @@
+.dashboardSection .card .cardScalable {
+    max-height: 9pc;
+    margin-bottom: 6pc;
+}
+
+.dashboardSection .flex.align-items-center.justify-content-center {
+    margin-top: -11pc;
+}
+
+.dashboardSection .sessionCardButtons.flex.align-items-center.justify-content-center {
+    margin-top: -11pc !important;
+}
+
+.dashboardSection .flex.align-items-center.justify-content-center {
+    margin-top: -11vh;
+}
+
+.sessionNowPlayingInfo {
+    margin-top: -6pc;
+}
+
+.sessionNowPlayingTime {
+    margin-top: -3pc;
+}
+
+.dashboardSection .cardContent.defaultCardBackground.defaultCardBackground1 {
+    height: 9pc;
+}
+
+.dashboardSection .cardBox.visualCardBox {
+    max-height: 9pc;
+}
+
+.dashboardSection .activeSession {
+    max-height: 9pc;
+}
+
+.sessionAppName {
+    display: none !important;
+}
+
+.sessionAppInfo img {
+    margin-left: 87%;
+}
+
+.sessionAppName {
+    vertical-align: top;
+    max-width: 200px;
+    margin-top: -1vh;
+}
+
+.sessionDeviceName {
+    margin-left: 15vw;
+    text-align: left;
+}
+
+.sessionAppSecondaryText {
+    margin-top: -2vh;
+}
+
+.dashboardSection .justify-content-center {
+    justify-content: left;
+}
+
+.sessionCardButtons {
+    justify-content: right !important;
+}
+
+.dashboardSection .flex.align-items-center.justify-content-center {
+    margin-top: -7vh;
+}
+
+.sessionNowPlayingInfo img {
+  margin-top: 1pc;
+  max-height: 18pc !important;
+  width: 10pc !important;
+}
+
+.playbackProgress>div {
+    background-color: var(--accent) !important;
+}
+
+.transcodingProgress>div {
+    background-color: grey !important;
+
+}
